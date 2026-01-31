@@ -1,0 +1,36 @@
+info:
+  name: "Player Controller"
+  identifier: "playercontroller"
+  description: "Manage online players, kick, ban, and op directly from a new tab."
+  version: "1.0.0"
+  target: "beta-2026-01"
+  author: "fernsehheft"
+  icon: "icon.png"
+  website: ""
+
+admin:
+  view: "resources/views/admin/index.blade.php"
+  controller: ""
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: ""
+  wrapper: ""
+  components: "resources/scripts/components"
+
+data:
+  directory: ""
+  public: ""
+  console: ""
+
+requests:
+  views: ""
+  app: "app"
+  routers:
+    application: ""
+    client: ""
+    web: "routes/web.php"
+
+database:
+  migrations: ""
